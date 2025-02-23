@@ -1,0 +1,41 @@
+# Игнорируем окружение
+venv/
+.env
+
+# Игнорируем зависимости
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Игнорируем кеши Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Логи и отладочные файлы
+logs/
+*.log
+debug.log
+
+# Базы данных (если используешь SQLite)
+*.sqlite3
+*.db
+
+# Кэш MyPy и других инструментов
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Alembic
+alembic/versions/*
